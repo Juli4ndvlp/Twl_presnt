@@ -1,4 +1,9 @@
 {
     "liveServer.settings.port": 0,
-    "livePreview.defaultPreviewPath": "/index.html"
+    "livePreview.defaultPreviewPath": "/index.html",
+
+    "files.associations": {
+        "*.css": "tailwindcss"
+    }
+
 }
