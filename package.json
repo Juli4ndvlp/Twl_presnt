@@ -4,8 +4,8 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "build:styles": ""
-  },
+    "build:styles": "pnpx @tailwindcss/cli -i ./input.css -o ./assets/output.css --watch"
+  }, 
   "keywords": [],
   "author": "",
   "license": "ISC",
