@@ -1,12 +1,24 @@
 @import "tailwindcss";
+@plugin "@midudev/tailwind-animations";
 
+@font-face {
+  font-family: "RobotoMono";
+  src: url("/assets/RobotoMono-italic-variableFont_wght.woff2") 
+  format("woff2");
+  font-style: normal;
+  font-weight: 100 700;
+  font-display: swap;
+}
 @theme {
-    --color-primary: #09f;
-    --breakpoint-xs:350px;
+--color-primary: #09f;
+--breakpoint-xs: 350px;
+
+/*fuentes*/
+--font-sans: 'RobotoMono', system-ui, sans-serif;
 }
 
 .social-button {
-    @apply p-2 size-10 xs:size-12 
+@apply p-2 size-10 xs:size-12 
     flex items-center
     justify-center 
     rounded-full 
